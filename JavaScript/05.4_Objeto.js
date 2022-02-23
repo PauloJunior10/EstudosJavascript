@@ -9,9 +9,9 @@ const myObj = {
 //          Acessar objetos aninhados
 // As subpropriedades de objetos podem ser acessadas ao encadear a notação de ponto e de colchetes.
   
-const ourStorage = {
-    "desk": {// aqui é uma "id"
-      "drawer": "stapler" // aqui é uma "propriedade" e um "valor" respectivamente
+const meuArmazenamento = {
+    "desk": { // Aqui é uma propriedade
+      "drawer": "stapler" // aqui é uma "subpropriedade" e um "valor" respectivamente
     },
     "cabinet": {
       "top drawer": { // perceba que o console irá acesar a subpropriedade da propriedade colchetes, e como ela tem espaço, tem que usar o colchetes
@@ -21,6 +21,6 @@ const ourStorage = {
       "bottom drawer": "soda"
     }
   };
-    console.log(ourStorage.desk.drawer)
-    console.log(ourStorage.cabinet["top drawer"].folder2)
+    console.log(meuArmazenamento.desk.drawer)
+    console.log(meuArmazenamento.cabinet["top drawer"].folder2)
   

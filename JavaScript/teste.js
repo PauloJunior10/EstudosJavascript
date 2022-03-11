@@ -1,18 +1,14 @@
-const objeto1 = {
-    nome: "Giulia",
-    idade: 25,
-    profissao: "Engenheira"
-   }
+const pessoas = [
+  {nome: 'joao',      idade: 52},
+  {nome: 'maria',     idade: 34},
+  {nome: 'alberto',   idade: 23},
+  {nome: 'lais',      idade: 45},
+  ]
 
-const objeto2 = {
-    nome: "Nathália",
-    idade: 25,
-    profissao: "Administradora"
+for (let index = 0; index < pessoas.length; index++) {
+  const element = pessoas[index].nome;
+  if (element.toLowerCase().endsWith('a')) {
+    console.log(element)
+  }
+ 
 }
-
-function umaFuncao (objetoX,objetoY) {
-    let arrayX = [objetoX.nome, objetoX.nome.length, objetoX.idade, objetoX.profissao, objetoX.profissao.length]
-    let arrayY = [objetoY.nome, objetoY.nome.length, objetoY.idade, objetoY.profissao, objetoY.profissao.length]
-    return console.log(arrayX) + console.log(arrayY)
-}
-umaFuncao(objeto1, objeto2)

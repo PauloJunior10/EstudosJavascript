@@ -3,21 +3,21 @@
 
 // AQUI RECEBE UMA STRING E PERCORRE ELA
 //a)
-let language = "JavaScript";
+// let language = "JavaScript";
 
-let text = "";
-for (let index of language) {
-  text += index + '\n';
-}
-console.log(text)
+// let text = "";
+// for (let index of language) {
+//   text += index + '\n';
+  
+// }
+// console.log(text)
+
 
 //b)
-// const arrayOriginal = [80, 30, 130, 40, 60, 21, 70, 120, 90, 103, 110, 55]
-// function imprimir (){
-//     for (item of arrayOriginal) {
-//         console.log(item)
+ const arrayOriginal = [80, 30, 130, 40, 60, 21, 70, 120, 90, 103, 110, 55]
+ 
+    for (item of arrayOriginal) {
+        console.log(item)
         
-//     }
+    }
         
-// }
-// imprimir()

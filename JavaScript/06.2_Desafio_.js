@@ -1,3 +1,7 @@
+
+//-------------DESAFIO------------
+// Some a idade de todos dentro do array pessoas
+
 const pessoas = [
   {nome: 'joao',      idade: 52},
   {nome: 'maria',     idade: 34},
@@ -15,6 +19,6 @@ let total = 0;
 for (let i = 0; i < soma.length; i++) {
   
   total += soma[i];
-  
+  // se desse o console log aqui, ele iria mostrar a soma de um em um
 }
 console.log(total)

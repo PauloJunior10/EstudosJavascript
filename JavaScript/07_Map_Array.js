@@ -32,7 +32,7 @@ const pessoas = [
         return newobj
     })
 
-    //console.log(nome)
-    //console.log(semNome)
+    // console.log(nome)
+    // console.log(semNome)
     //console.log(addId)
     //console.log(newAddId)

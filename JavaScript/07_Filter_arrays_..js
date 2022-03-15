@@ -1,6 +1,8 @@
-// Filter => Sempre retorna um array com a mesma quantidade de elementos ou menos
+// Na prática, ele faz a leitura dos elementos da array em busca de um valor de referência passado por meio de uma função callback. Ao fazer o teste em cada elemento, o método retorna um ou mais conteúdos que atendam à especificação indicada na função callback e armazena o resultado em uma nova variável do tipo array.
 
-//Retorne oos númerros  maiores que 10
+// Portanto, o resultado será o de todos os elementos que satisfaçam a condição do filtro. Vale ressaltar que a array original não sofre nenhum tipo de alteração pelo método filter().
+
+//Retorne os númerros  maiores que 10
 
 // const numeros  = [5,23,43,2,7,8,9,24,47,56]
 // const numMaiorQue10 = numeros.filter(num => num > 10) // aqui eu usei uma arrow function
@@ -19,6 +21,7 @@ const pessoas = [
 {nome: 'lais',      idade: 45},
 ]
 
+
 const nomeMaiorQue5 = pessoas.filter(obj => obj.nome.length > 5)
 const maiorQue50 = pessoas.filter(obj => obj.idade > 50)
 const nomeTerminaComA = pessoas.filter(obj => {
@@ -26,6 +29,6 @@ const nomeTerminaComA = pessoas.filter(obj => {
 })
 
 
-// console.log(nomeMaiorQue5)
+console.log(nomeMaiorQue5)
 // console.log(maiorQue50)
-console.log(nomeTerminaComA)
+// console.log(nomeTerminaComA)

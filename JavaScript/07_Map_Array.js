@@ -1,5 +1,14 @@
 // o map() executa uma função de transformação em todos os elementos de uma determinada lista , e retorna uma nova lista como resultado.
 
+// a) multiplique cada número da array, pela sua posição na array
+// function myFunction(array) {
+//     let novaArray = array.map((numero,index,array) => {
+//       return numero*index
+//   })
+//   return novaArray
+//   }
+//   console.log(myFunction([124,780,20]))
+
 // Para cada Elemento:
 // Retorne uma string com o nome da pessoa
 // Remova apenas a chave nome do objeto

@@ -6,6 +6,8 @@
 // let language = "JavaScript";
 
 // let text = "";
+
+ //  variavel index recebe 'de'/'of' language
 // for (let index of language) {
 //   text += index + '\n';
   
@@ -16,6 +18,7 @@
 //b)
  const arrayOriginal = [80, 30, 130, 40, 60, 21, 70, 120, 90, 103, 110, 55]
  
+ // variavel item recebe 'do'/'of' arrayoriginal
     for (item of arrayOriginal) {
         console.log(item)
         

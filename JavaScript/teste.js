@@ -1,8 +1,14 @@
 
-function myFunction(array) {
-  let novaArray = array.map((numero,index,array) => {
-    return numero*index
-})
-return novaArray
+function isPrime(number) {
+  var start = 2;
+  while (start <= Math.sqrt(number)) {
+      if (number % start++ < 1) return false;
+  }
+  return number > 1;
 }
-console.log(myFunction([124,780,20]))
+
+if(isPrime(2)){
+  console.log('é primo')
+}else{
+  console.log('não é primo')
+}

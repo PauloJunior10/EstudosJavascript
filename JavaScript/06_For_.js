@@ -36,3 +36,16 @@
 //      console.log(arr[i][j]);
 //    }
 //  }
+
+// e) buscar o maior número da array
+const array = [13,24,233,43,57,89,76,767,2455]
+
+let maior = 0;
+for (let i = 0; i < array.length; i++) {
+   if ( array[i] > maior ) {
+    maior = array[i];
+   }
+}
+
+
+console.log(maior)

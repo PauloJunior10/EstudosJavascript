@@ -21,7 +21,7 @@ const pessoas = [
 {nome: 'lais',      idade: 45},
 ]
 
-
+//Ele recebe e filtra os objetos do array selecionado, após isso ele estabelece uma condição, se a condição for true ele retorna todo o objeto que cumpriu a condição
 const nomeMaiorQue5 = pessoas.filter(obj => obj.nome.length > 5)
 const maiorQue50 = pessoas.filter(obj => obj.idade > 50)
 const nomeTerminaComA = pessoas.filter(obj => {
@@ -29,6 +29,6 @@ const nomeTerminaComA = pessoas.filter(obj => {
 })
 
 
-console.log(nomeMaiorQue5)
-// console.log(maiorQue50)
+//console.log(nomeMaiorQue5)
+ console.log(maiorQue50)
 // console.log(nomeTerminaComA)

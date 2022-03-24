@@ -27,15 +27,41 @@ const contacts = [
     },
 ];
 //procurar perfil
-function lookUpProfile(firstName, prop) {    
-    let result = contacts.filter(obj => obj.firstName == firstName)
+// function lookUpProfile(firstName, prop) {    
+//     let result = contacts.filter(obj => obj.firstName == firstName)
 
-    if (result == 0) {
-        return "No such contact";
-    } else {
-        return result[0][prop] ? `O nome é `+ firstName + ` e o dado que vc procura é `+ result[0][prop] : "No such property"; // usou um operador ternário
+//     if (result == 0) {
+//         return "No such contact";
+//     } else {
+//         return result[0][prop] ? `O nome é `+ firstName + ` e o dado que vc procura é `+ result[0][prop] : "No such property"; // usou um operador ternário
+//     }
+// }
+//console.log(lookUpProfile("Sherlock", "lastName"))
+//-----------------------------------------
+// function lookUpProfile(name, prop) {
+//     for (let x = 0; x < contacts.length; x++) {
+//       if (contacts[x].firstName === name) {
+//         if (contacts[x].hasOwnProperty(prop)) {
+//           return contacts[x][prop];
+//         } else {
+//           return "No such property";
+//         }
+//       }
+//     }
+//     return "No such contact";
+//   }
+//console.log(lookUpProfile("Sherlock", "lastName"))
+//------------------------------------------
+function lookUpProfile(name, prop) {
+    for (let i = 0; i < contacts.length; i++) {
+      if (contacts[i].firstName === name) {
+        if (prop in contacts[i]) {
+          return contacts[i][prop];
+        } else {
+          return "No such property";
+        }
+      }
     }
-}
-
-
+    return "No such contact";
+  }
 console.log(lookUpProfile("Sherlock", "lastName"))

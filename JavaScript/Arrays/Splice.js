@@ -10,6 +10,6 @@
 
 const fruits = ["Banana", "Orange",'Apple','Mango','Avocado' , 'Lemon' ,'Pitomba'];
 const myBest = fruits.slice(0, -2 );
-const IdonotLike = fruits.slice(5)
+const iDoNotLike = fruits.slice(5)
 
-console.log(IdonotLike, myBest)
+console.log( iDoNotLike)

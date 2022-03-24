@@ -14,7 +14,7 @@
 // b)   Iterar números ímpares com um laço for
 // const ourArray = [];
 
-// for (let i = 0; i < 20; i += 2) {
+// for (let i = 1; i < 20; i += 2) {
 //   ourArray.push(i)
 // }
 // console.log(ourArray)
@@ -30,7 +30,7 @@
 // const arr = [
 //    [1, 2], [3, 4], [5, 6]
 //  ];
- 
+
 //  for (let i = 0; i < arr.length; i++) {
 //    for (let j = 0; j < arr[i].length; j++) {
 //      console.log(arr[i][j]);
@@ -38,14 +38,28 @@
 //  }
 
 // e) buscar o maior número da array
-const array = [13,24,233,43,57,89,76,767,2455]
+// const array = [13,24,233,43,57,89,76,767,2455]
 
-let maior = 0;
-for (let i = 0; i < array.length; i++) {
-   if ( array[i] > maior ) {
-    maior = array[i];
+// let maior = 0;
+// for (let i = 0; i < array.length; i++) {
+//    if ( array[i] > maior ) {
+//     maior = array[i];
+//    }
+// }
+// console.log(maior)
+
+//f) Aninhar laços, depois imprimir o maior número
+const arr = [
+   [3, 2], [5, 9], [4, 1]
+];
+
+let maior = 0
+for (let i = 0; i < arr.length; i++) {
+   for (let j = 0; j < arr[i].length; j++) {
+      const newArray = arr[i][j]
+      if (newArray > maior) {
+         maior = newArray
+      }
    }
 }
-
-
 console.log(maior)

@@ -15,20 +15,21 @@
 // Retorne as pessoas cujo nome termina com a letra a
 
 const pessoas = [
-{nome: 'joao',      idade: 52},
-{nome: 'maria',     idade: 34},
-{nome: 'alberto',   idade: 23},
-{nome: 'lais',      idade: 45},
+    {nome: 'joao',      idade: 52,  apelido:'Joãzinho'},
+    {nome: 'maria',     idade: 34,  apelido:'mary'},
+    {nome: 'alberto',   idade: 23,  apelido:'betinho'},
+    {nome: 'lais',      idade: 45,  apelido:'laila'},
 ]
 
 //Ele recebe e filtra os objetos do array selecionado, após isso ele estabelece uma condição, se a condição for true ele retorna todo o objeto que cumpriu a condição
+const apelidos = pessoas.filter(obj => obj.apelido === 'mary')
 const nomeMaiorQue5 = pessoas.filter(obj => obj.nome.length > 5)
 const maiorQue50 = pessoas.filter(obj => obj.idade > 50)
 const nomeTerminaComA = pessoas.filter(obj => {
     return obj.nome.toLowerCase().endsWith('a')
 })
 
-
+console.log(apelidos)
 //console.log(nomeMaiorQue5)
- console.log(maiorQue50)
+ //console.log(maiorQue50)
 // console.log(nomeTerminaComA)

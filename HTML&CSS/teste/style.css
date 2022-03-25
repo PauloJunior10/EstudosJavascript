@@ -1,0 +1,25 @@
+div{
+    background-color: black;
+    color: white;
+}
+.preco{
+    background-color: aqua;
+}
+.produto{
+    background-color: greenyellow;
+}
+
+.desconto{
+    background-color: antiquewhite;
+}
+.codigo{
+    background-color: yellow;
+}
+.total{
+    background-color: rgb(143, 53, 53);
+    color: white;
+}
+table{
+    border-width: 3px;
+    border-style: dotted;
+}

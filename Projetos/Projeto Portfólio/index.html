@@ -6,48 +6,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Portfólio</title>
+    <title>Meu Portfólio</title>
 </head>
 
 <body>
-    <header class="header-container">
-        <div class="header">
-            <div class="checkbox-container">
-                <div class="checkbox-wrapper">
-                    <input type="checkbox" id="toggle">
-                    <label class="checkbox" for="toggle">
-                        <div class="trace"></div>
-                        <div class="trace"></div>
-                        <div class="trace"></div>
-                    </label>
-                    <div class="menu"></div>
-                    <nav class="menu-itens">
-                        <ul>
-                            <li>
-                                <a href="">Home</a>
-                            </li>
-                            <li>
-                                <a href="">Sobre</a>
-                            </li>
-                            <li>
-                                <a href="">Projetos</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-
+    <header>
+        <div class="logo">
+            <h1>Pj developer</h1>
         </div>
-        <h1>Paulo Junior</h1>
-        <h2>front-end developer</h2>
-        <div class="social-media">
-            <a href="Linkedin"></a>
-            <a href="Github"></a>
+        <div class="nav">
+            <a href="#sobre">Sobre</a>
+            <a href="#projeto">Projetos</a>
+            <a href="#contatos">Contatos</a>
         </div>
     </header>
-    <main class="container">
+
+    <main>
+        <div class="container1">
+            <img src="img/pc1.jpg" alt="homem teclando no PC">
+            <p id="texto">Olá Mundo! &#127758</p>
+            <p id="texto2">Venha Contruir seu sonho/site</p>
+            <p id="texto3">Com a gente!</p>
+        </div>
+        <div class="about-content">
+            <h1>SOBRE<a name="sobre"></a></h1>
+            <p>
+                </br>Desenvolvedor e um eterno aprendiz. Apaixonado por enfrentar desafios e trabalhar em produtos que
+                realmente impactam a vida das pessoas ao meu redor.<br>
+                Entusiasta de tecnologia desde criança, Admirador de um bom software e de soluções eficazes, almejo
+                fazer parte de projetos com impacto positivo e real no mundo.
+                Creio que a Educação muda as pessoas, por conseguinte pessoas mudarão o mundo :)</p>
+        </div>
+        <div class="project-content">
+            <h1>PROJETOS<a name="projeto"></a></h1>
+            <div class="project1">
+                <a href="https://github.com/PauloJunior10/calculadora" target="_blank"><img class="project-img1" src="img/Calculadora.png" alt=""></a>
+                <div class="project1-p"><p>Uma Calculadora feita com Html e Css, mais uma pitadinha de Javascript.</p></div>
+            </div>
+            <div class="project2">
+                <a href="https://github.com/PauloJunior10/Projeto-Tecblog" target="_blank"><img  class="project-img2" src="img/Tecblog.png" alt=""></a>
+                <div class="project2-p"><p>Um site feito com Html & Css</p></div>
+            </div>
+        </div>
+
     </main>
-    <footer class="footer"></footer>
+    <footer><a name="contatos"></a>
+        <div class="linkedin">
+            <div>Linkedin</div>
+            <a href="https://www.linkedin.com/in/paulojunior10/" target="_blank"><img src="Icon/linkedin-icon.png"
+                    alt="logo do linkedin"></a>
+        </div>
+        <div class="github">
+            <div>Github</div>
+            <a href="https://github.com/PauloJunior10" target="_blank"><img src="Icon/web-github-icon.png"
+                    alt="logo do github"></a>
+        </div>
+
+    </footer>
 
 </body>
 

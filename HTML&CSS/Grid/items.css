@@ -19,12 +19,17 @@ html, body{
     gap: 5px;
 
     justify-items: center;
-    align-items: end;
+    align-items: center;
 }
 
 .container > div{
     background: #7159c1;
-    border: 1px solid red;
     width: 50%;
     height: 50%;
+}
+
+.verde{ /*Perceba que não muda nada pq acima todas as div já tem altura e largura definida além da cor*/
+    background: green;
+    width: 100%;
+    height: 100%;
 }

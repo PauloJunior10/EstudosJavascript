@@ -10,11 +10,11 @@ html, body {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 20vh 70vh 10vh;
-    grid-template-areas: "h h" /*se eu colocasse "h ." eu estaria indicando que queria o conteúdo h na primeira coluna e a segunda coluna vazia*/
+    grid-template-areas: "h a" /*se eu colocasse "h ." eu estaria indicando que queria o conteúdo h na primeira coluna e a segunda coluna vazia*/
                          "m a"
-                         "f f";
+                         "f a";
 
-        /* gap: 20px 10px; aqui é um atalho pra row gap e colum gap */
+         gap: 10px 10px; /*aqui é um atalho pra row gap e colum gap */
         /* row-gap: 20px;
         column-gap: 10px; */
 
@@ -39,7 +39,21 @@ main {
     grid-column: 1/2; */
 
     grid-area: m;
+    display: flex;
 }
+
+.subgrid{
+    grid-template-columns: 1fr 1fr 1fr;
+	gap: 20px;
+    font-size: larger;
+    justify-content: space-between;
+}
+
+.subgrid div{
+    border:3px solid red;
+}
+
+
 
 aside {
     background-color: green;

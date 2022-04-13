@@ -7,6 +7,7 @@
 }
 
 body{
+    background-color: bisque;
     margin-bottom: 100px;
 }
 
@@ -75,19 +76,20 @@ header {
 /*CSS GRID*/
 .grid1{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;/*poderia escrever (3, 1fr) seria equivalente a 3 vezes 1 fr*/
+    grid-template-columns: 2fr 1fr 1fr;/*poderia escrever (3, 1fr) seria equivalente a 3 vezes 1 fr*/
     max-width: 800px;
     padding: 10px;
     margin: 0 auto;
     gap: 20px;
 }
-
 .grid1 > div:nth-child(n+4){/*a partir da div 4*/
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr; */
+    grid-template-rows: 1fr 1fr;
     gap: 10px;
     align-items: center;/*alinha o texto ao centro*/
 }
+
 
 .grid1 > div.anuncio{
     border: 1px solid red;

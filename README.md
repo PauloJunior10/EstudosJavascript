@@ -12,12 +12,18 @@
   <a href="#rocket-technologies">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requisitos</a> &#xa0;
 </p>
+<br>
+ <div align="center">
+  <img src="https://user-images.githubusercontent.com/92147177/163867987-d436cbf7-3122-4ffe-9e51-e5cde9e55e37.png" width= "700px">
+</div>
 
 <br>
 
 ## :dart: Sobre ##
 
 4food é um site fictício de um supermercado, esse projeto faz parte do bootcamp Labenu e foi desenvolvido por três mãos(alunos)
+
+O 4Food é um projeto de uma grande rede de supermercados que está buscando se digitalizar e criar um sistema de compras e entregas recorrentes por aplicativo. Você precisa criar uma landing page que comunique velocidade e praticidade da solução, destacando a possibilidade de realizar (i) compras de supermercado online e (ii) compras de comidas prontas com uma frequência semanal.
 
 ## :rocket: Tecnologias ##
 

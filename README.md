@@ -32,10 +32,10 @@ As seguintes ferramentas foram usadas nesse projeto:
 ### Sem requisitos
 #### Apenas baixe o projeto e rode o arquivo index.html
 
-## :checkered_flag: Starting ##
+## :checkered_flag: Criadores ##
 
-Made with :heart: by <a href="https://github.com/{{PauloJunior10}}" target="_blank">{{Paulo Junior}}</a>
+Feito com :heart: por <a href="https://github.com/{{PauloJunior10}}" target="_blank">{{Paulo Junior}}</a>, <a href="https://github.com/{{Xoxo31}}" target="_blank">{{Ana Lívia}}</a> e <a href="https://github.com/{{RodrigoLisboa6}}" target="_blank">{{Rodrigo Lisboa}}</a>
 
 &#xa0;
 
-<a href="#top">Back to top</a>
+<a href="#top">Voltar ao topo</a>

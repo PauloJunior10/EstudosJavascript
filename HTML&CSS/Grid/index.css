@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     top: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     background-color: #7159c1;
 
 }
@@ -44,9 +44,8 @@ main {
 
 .subgrid{
     grid-template-columns: 1fr 1fr 1fr;
-	gap: 20px;
     font-size: larger;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .subgrid div{

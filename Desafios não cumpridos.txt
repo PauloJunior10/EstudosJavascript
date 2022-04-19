@@ -1,3 +1,0 @@
-1.Desafios de laços
-2.Desafio black-jack
-3.Revisão JS módulo1 bloco 4 (exercício)

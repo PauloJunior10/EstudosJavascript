@@ -52,7 +52,7 @@ const contacts = [
 //   }
 //console.log(lookUpProfile("Sherlock", "lastName"))
 //------------------------------------------
-function lookUpProfile(name, prop) {
+function lookUpProfile(name, prop) { //prop = propriedade
     for (let i = 0; i < contacts.length; i++) {
       if (contacts[i].firstName === name) {
         if (prop in contacts[i]) {
@@ -64,4 +64,4 @@ function lookUpProfile(name, prop) {
     }
     return "No such contact";
   }
-console.log(lookUpProfile("Sherlock", "lastName"))
+console.log(lookUpProfile("Harry", "number"))

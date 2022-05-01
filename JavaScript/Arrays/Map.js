@@ -1,6 +1,6 @@
 //https://devdocs.io/javascript/global_objects/array/map
 
-// O método map() Basicamente, faz a leitura de todos os elementos do array, executa uma função callback para cada um e devolve como retorno um novo array.
+// O método map() Basicamente, faz a leitura de todos os elementos do array, executa uma função callback para cada um e devolve como retorno um NOVO array.
 
 //a)
 // var numbers = [1, 4, 9];
@@ -13,7 +13,7 @@
 // var doubles = numbers.map( x => x*2)
 // doubles é agora [2, 8, 18]. numbers ainda é [1, 4, 9]
 
-//b)
+//c)
 // Para cada Elemento:
 // Retorne uma string com o nome da pessoa
 // Remova apenas a chave nome do objeto

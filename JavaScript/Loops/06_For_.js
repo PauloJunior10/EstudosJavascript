@@ -4,12 +4,16 @@
 
 // for (a; b; c), onde a é a declaração de inicialização, b é a declaração de condição, e c é a expressão final.
 
-// a) Adicionando ao array
-// const ourArray = [];
+// a) Contagem regressiva
+// function regressiva(n) {
+//   const newArray = []
 
-// for (let i = 0; i < 5; i++) {
-//   console.log(ourArray.push(i))
+//   for (i = n; i > 0; i--) {
+//     newArray.push(i)
+//   }
+//   return newArray
 // }
+// console.log(regressiva(5))
 
 // b)   Iterar números ímpares com um laço for
 // const ourArray = [];

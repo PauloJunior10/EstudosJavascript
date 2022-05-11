@@ -1,14 +1,16 @@
 //      Se a propriedade do objeto que você está tentando acessar possui um espaço no seu nome, você precisará usar a notação de colchetes.
   const myObj = {
-    'Space Name': "Kirk",
-    'More Space': "Spock",
-    NoSpace: "USS Enterprise"
+    'Nome com espaço': "Kirk",
+    SemEspaco: "USS Enterprise"
   };
   
-  //console.log(myObj["Space Name"],'E', myObj.NoSpace)
+  console.log(myObj["Nome com espaço"],' e ', myObj.SemEspaco)
 
  // ADICIONANDO E REMOVENDO ELEMENTOS DOS OBJETOS:
- myObj.dog = 'rex'
+ myObj.Dog = 'Rex'
+ myObj["Sobrenome"] = 'Luiz'
+
  console.log(myObj)
- delete myObj.dog
- console.log(myObj)
+ 
+//  delete myObj.dog
+//  console.log(myObj)

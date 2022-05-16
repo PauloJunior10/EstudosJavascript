@@ -24,22 +24,22 @@
 // console.log(transformar("idade"))
 
 // ===============================
- function transformar(value) {
+//  function transformar(value) {
 
-let Objeto = {
-  nome: "Paulo",
-  idade: "29",
-  profissão: "Programador"
-}
+// let Objeto = {
+//   nome: "Paulo",
+//   idade: "29",
+  // profissão: "Programador"
+// }
 
-resultado = Objeto[value];//Veja que aqui ele acessou com colchetes
-//   resultado = Objeto.value; aqui daria undefined
+// resultado = Objeto[value];//Veja que aqui ele acessou com colchetes
+// //   resultado = Objeto.value; aqui daria undefined
 
-    if (Objeto[value]) {
-    return Objeto[value];
-  } else {
-    return "Solicitação errada, coloque nome, idade ou profissão";
-  }
- }
+//     if (Objeto[value]) {
+//     return Objeto[value];
+//   } else {
+//     return "Solicitação errada, coloque nome, idade ou profissão";
+//   }
+//  }
 
-console.log(transformar("profissão"))
+// console.log(transformar("profissão"))

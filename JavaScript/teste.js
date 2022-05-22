@@ -2,13 +2,9 @@
 const Objeto = {
   nome: "Paulo",
   idade: 29,
-  profissão: "Programador",
-
-  anoDeNascimento: function(){
-    this.ano = (2022 - this.idade);
-    return this.ano
+  profissao: "Programador",
   }
-}
-// Objeto.anoDeNascimento()
 
-console.log(Objeto.ano);
+  const {nome,idade,profissao} = Objeto
+
+console.log(nome);

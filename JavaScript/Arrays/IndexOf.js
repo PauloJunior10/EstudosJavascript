@@ -8,10 +8,27 @@
 
 // Valores iniciais negativos contam a partir do último elemento (mas ainda pesquisa da esquerda para a direita).
 
-
-const fruits = ["Banana", "Orange", "Apple","Abacaxi","Tomato","Avocado", "Mango", "Apple"];
+const fruits = [
+  "Banana",
+  "Orange",
+  "Apple",
+  "Abacaxi",
+  "Tomato",
+  "Avocado",
+  "Mango",
+  "Apple",
+];
 let index = fruits.indexOf("Apple");
-let index2 = fruits.indexOf("Apple", 3)
+let index2 = fruits.indexOf("Apple", 3);
 
-console.log(index)
-console.log(index2)
+console.log(index);
+console.log(index2);
+
+// ==========================
+
+let nome = "Paulo Luiz Silva";
+if (nome.indexOf('junior') > -1) {
+    console.log('Sobrenome encontrado')
+}else{
+    console.log("sobrenome não encontrado")
+}

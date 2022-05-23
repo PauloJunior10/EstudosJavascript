@@ -1,8 +1,17 @@
-//  O método every() testa se todos os elementos no array passam no teste implementado pela função fornecida. Ele retorna um valor booleano.
+// O every()método executa uma função para cada elemento do array.
 
-const isBelowThreshold = (currentValue) => currentValue < 40;
+// O every()método retorna truese a função retornar true para todos os elementos.
 
-const array1 = [1, 30, 39, 29, 10, 13];
+// O every()método retorna falsese a função retornar false para um elemento.
 
-console.log(array1.every(isBelowThreshold));
-// expected output: true
+// O every()método não executa a função para elementos vazios.
+
+// O every()método não altera o array original
+
+const ages = [32, 33, 16, 40];
+
+function checkAge(age) {
+  return age > 15; // experimente colocar maio do que 16
+}
+
+console.log(ages.every(checkAge))

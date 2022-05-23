@@ -1,4 +1,4 @@
-// O método find() retorna o primeiro elemento na matriz fornecida que satisfaz a função de teste fornecida. Se nenhum valor satisfizer a função de teste, undefined será retornado.
+// O método find() retorna o PRIMEIRO elemento na matriz fornecida que satisfaz a função de teste fornecida. Se nenhum valor satisfizer a função de teste, undefined será retornado.
 
 // O find()método não executa a função para elementos vazios.
 

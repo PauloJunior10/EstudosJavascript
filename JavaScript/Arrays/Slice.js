@@ -12,4 +12,5 @@ const fruits = ["Banana", "Orange",'Apple','Mango','Avocado' , 'Lemon' ,'Pitomba
 const myBest = fruits.slice(0, -2 );
 const iDoNotLike = fruits.slice(4)
 
-console.log( myBest)
+console.log(myBest)
+console.log( iDoNotLike)

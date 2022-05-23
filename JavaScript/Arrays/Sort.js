@@ -6,7 +6,8 @@ const frutas = ["Banana","Abacate", "Manga","Melancia","Jaca"]
 console.log(frutas.sort())
 
 // console.log(frutas.reverse())
-//  console.log(frutas.sort().reverse()) // posso usar assim tbm
+//  console.log(frutas.sort().reverse()) // aqui ele ordena em ordem alfabética e depois ele ordena do ultimo ao primeiro
+
 // console.log(frutas.reverse()) // Se usar o método reverse sem antes usar o método SORT ele ordena o array do último ao primeiro
 
 // ======================================

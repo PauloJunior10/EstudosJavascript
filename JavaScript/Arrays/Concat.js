@@ -11,4 +11,6 @@ const fiat = ['Palio','Toro']
 const chevrolet = ['Celta','Onix']
 
 const cars = ford.concat(fiat,chevrolet)
+
 console.log(cars)
+console.log(ford.concat(fiat))

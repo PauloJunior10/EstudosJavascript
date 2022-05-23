@@ -1,10 +1,8 @@
+const numero = 123
 
-const Objeto = {
-  nome: "Paulo",
-  idade: 29,
-  profissao: "Programador",
-  }
+function converter(obj){
+let num = obj.toString()
+return num
+}
 
-  const {nome,idade,profissao} = Objeto
-
-console.log(nome);
+console.log(typeof (converter(numero)))

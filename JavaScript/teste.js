@@ -1,8 +1,9 @@
-const numero = 123
-
-function converter(obj){
-let num = obj.toString()
-return num
+function countBy(x, n) {
+    var z = [];
+    for (i = 1; i <= n; i++) {
+        z.push(x * i);
+    }
+    return z;
 }
 
-console.log(typeof (converter(numero)))
+  console.log(countBy(2,5))

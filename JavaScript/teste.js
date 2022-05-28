@@ -1,9 +1,8 @@
-function countBy(x, n) {
-    var z = [];
-    for (i = 1; i <= n; i++) {
-        z.push(x * i);
-    }
-    return z;
-}
+function past(h, m, s){
+    //#Happy Coding! ^_^
+    m = m * 60
+    h = h * 3600
+    return (h + m + s)*1000;
+  }
 
-  console.log(countBy(2,5))
+  console.log( past(0,1,1))

@@ -9,6 +9,6 @@
 // Valores iniciais ou finais menores que 0 são tratados como 0.
 
 let nome = 'Paulo Luiz Silva dos Santos Junior'
-console.log(nome.substring(5))
+console.log(nome.substring(6))
 
 // console.log(nome.substring(5, -6)) Aqui funcionaria no método slice

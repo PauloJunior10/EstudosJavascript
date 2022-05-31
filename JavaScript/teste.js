@@ -3,7 +3,7 @@
 // Se a entrada for uma matriz vazia ou for nula, retorne uma matriz vazia.
 
 function countPositivesSumNegatives(input) {
-  if (input == null || input.length == 0) {
+  if (input == null || input.length == 0) { // pra verificar se um array é vazio, colocamos .length == 0
     return [];
   } else {
     let arr = []; // criei uma array vazia

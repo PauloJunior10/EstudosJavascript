@@ -8,6 +8,8 @@
 // Analise os dados com JSON.parse()e os dados se tornam um objeto JavaScript.
 
 const obj = JSON.parse('{"name":"John", "age":30, "city":"New York"}');
+const strin = JSON.stringify(obj)
 
+console.log("JSON em string: " + strin)
 console.log(obj) 
 console.log(obj.name)

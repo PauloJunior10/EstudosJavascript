@@ -4,6 +4,6 @@ const fraseEmArray = frase.split(' ')// sempre que tem um pedaço em branco, ele
 
 
 console.log(fraseEmArray)
-console.log(fraseEmArray.length)
-console.log(frase[2])
-console.log(fraseEmArray[2])
+// console.log(fraseEmArray.length)
+// console.log(frase[2])
+// console.log(fraseEmArray[2])

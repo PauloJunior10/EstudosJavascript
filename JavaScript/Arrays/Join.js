@@ -6,6 +6,6 @@
 
 let arr = ["ovo", "farinha", "feijão", "arroz"];
 
-let compras = arr.join("---"); // se não colocar nada ele separa por vírgula
+let compras = arr.join(" "); // se não colocar nada ele separa por vírgula
 
 console.log(compras);

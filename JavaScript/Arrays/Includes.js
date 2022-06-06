@@ -1,6 +1,6 @@
 // O includes()método retorna true se uma matriz contiver um valor especificado.
 
-// O includes()método retorna falsese o valor não for encontrado.
+// O includes()método retorna false se o valor não for encontrado.
 
 // O includes()método diferencia maiúsculas de minúsculas.
 

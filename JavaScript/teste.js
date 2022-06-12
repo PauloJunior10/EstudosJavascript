@@ -1,26 +1,55 @@
-// Retorna um array, onde o PRIMEIRO elemento é a contagem de números positivos e o SEGUNDO elemento é a soma de números negativos.
-// 0 não é positivo nem negativo.
-// Se a entrada for uma matriz vazia ou for nula, retorne uma matriz vazia.
+// https://www.freecodecamp.org/portuguese/learn/javascript-algorithms-and-data-structures/basic-javascript/use-recursion-to-create-a-range-of-numbers
 
-function countPositivesSumNegatives(input) {
-  if (input == null || input.length == 0) { // pra verificar se um array é vazio, colocamos .length == 0
-    return [];
-  } else {
-    let arr = []; // criei uma array vazia
-    const positivos = input.filter((obj) => obj > 0).length; // peguei a quantidade de numeros positivos
-    arr.push(positivos); // coloqueio-os na array
+// toda função recursiva precisa dos seguintes elementos pra funcionar:
+// parâmetro acumulador (opcional)
+// Condição de saída no início
+// lógica própria (opcional)
+// Chamada recursiva ao final
 
-    const negativos = input.filter((obj) => obj < 0); // filtrei os numeros negativos
-    let sum = 0; // criei uma variável para fazer a soma
-    for (let i = 0; i < negativos.length; i++) {
-      sum += negativos[i];
-    } // fiz um loop em que somava e atribuía os números negativos
+// Definimos uma função chamada rangeOfNumbers com dois parâmetros. A função deve retornar um array de inteiros a qual começa com um número representado pelo parâmetro startNum e terminar com um número representado pelo parâmetro endNum. O número inicial sempre será menor ou igual ao número final. Sua função precisa usar recursão para chamar a si mesma e não deve depender de nenhum tipo de laço. Também deve funcionar para casos onde startNum e endNum tiverem o mesmo valor.
 
-    arr.push(sum); // coloqueio-os na array
+function rangeOfNumbers(  
+  startNum, 
+  endNum,
+  result = [ startNum ]
+) {
 
-    return arr;
+  if (startNum >= endNum) {
+     return result
   }
-}
-console.log(countPositivesSumNegatives([]));
+  // condição de saída
+  
+  result.push( startNum + 1 )
+  // lógica caso a condição de saída não seja satisfeita 
+
+  return rangeOfNumbers( startNum + 1, endNum, result) 
+  // chamada recursiva incremental
+  
+};
+
+console.log(rangeOfNumbers(1,10))
 
 
+
+
+
+
+// function rangeOfNumbers(startNum, endNum) {
+//     if (endNum - startNum === 0) {
+//       return [startNum];
+//     } else {
+//       var numbers = rangeOfNumbers(startNum, endNum - 1);
+//       numbers.push(endNum);
+//       return numbers;
+//     }
+//   }
+
+//   console.log(rangeOfNumbers(3,10))
+
+// function rangeOfNumbers(startNum, endNum) {
+//     return startNum === endNum
+//       ? [startNum]
+//       : rangeOfNumbers(startNum, endNum - 1).concat(endNum);
+//   }
+
+//   console.log(rangeOfNumbers(3,10))

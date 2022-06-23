@@ -1,8 +1,7 @@
-function removeChar(str){
-  //You got this!
- const newPala = (str.slice(1, -1))
+function adicionar (nomes, ...novosNomes){
+  
 
- return newPala
- };
+}
 
- console.log(removeChar('PauloJunior'))
+let nomes = ["paulo","Junior"];
+let outros = adicionar(nomes, "Antonio", "Maria", "José")

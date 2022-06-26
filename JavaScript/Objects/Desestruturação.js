@@ -6,3 +6,4 @@ const pessoa = {
 const {nome1, nome2} = pessoa
 
 console.log(nome1)
+

@@ -1,6 +1,6 @@
 // O every()método executa uma função para cada elemento do array.
 
-// O every()método retorna truese a função retornar true para todos os elementos.
+// O every()método retorna true se a função retornar true para todos os elementos.
 
 // O every()método retorna falsese a função retornar false para um elemento.
 

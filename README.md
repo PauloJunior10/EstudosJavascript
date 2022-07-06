@@ -24,8 +24,6 @@ São códigos que usei e uso em meus estudos e também achei necessário salvar 
 
 As seguintes ferramentas foram usadas nesse projeto:
 
-- [HTML](https://www.w3.org/standards/webdesign/htmlcss)
-- [CSS](https://www.w3.org/standards/webdesign/htmlcss)
 - [JAVASCRIPT](https://www.w3schools.com/jsref/default.asp)
 
 

@@ -1,25 +1,13 @@
-// José quer fazer compras, porém ele deseja saber o menor preço para decidir qual comprar.
-// Para isso ele recebe uma lista com os preços de cada loja.
-// Escreva uma função que retorne o menor e o maior valor
+// An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
 
-function minMax(arr) {
- let newArray = [0, 0];
-  for (let index = 0; index < arr.length; index++) {
-    if (arr[index] > newArray[1]) {
-      newArray[1] = arr[index];
-    }
-
-    newArray[0] = newArray[1]
-
-    for (let i = 0; i < arr.length; i++) {
-
-     if (arr[i] < newArray[0]) {
-       newArray[0] = arr[i];
-     }
-      
-    }
+function isIsogram(str){
+    let i, j;
+    str = str.toLowerCase();
+    for(i = 0; i < str.length; ++i)
+      for(j = i + 1; j < str.length; ++j)
+        if(str[i] === str[j])
+          return false;
+    return true;
   }
-  return newArray; // fix me!
-}
 
-console.log(minMax([1, 7, 3, 9, 5]));
+  console.log(isIsogram('aloha'))

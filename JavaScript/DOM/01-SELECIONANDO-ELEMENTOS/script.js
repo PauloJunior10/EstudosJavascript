@@ -1,0 +1,1 @@
+document.getElementById('exemplo').innerHTML = "Pedro"

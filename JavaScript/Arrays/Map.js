@@ -10,7 +10,7 @@ const DATA = [
 
 ]
 
-const upperData = DATA.map(item => item.title.toUpperCase())
+const upperData = DATA.map(obj => obj.title.toUpperCase())
 console.table(upperData)
 
 //a)

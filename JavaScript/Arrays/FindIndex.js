@@ -1,4 +1,3 @@
-// O findIndex()método executa uma função para cada elemento do array.
 
 // O findIndex()método retorna o índice (posição) do primeiro elemento que passa em um teste.
 

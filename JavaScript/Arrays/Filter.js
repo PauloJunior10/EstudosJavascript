@@ -1,4 +1,4 @@
-// Na prática, ele faz a leitura dos elementos da array em busca de um valor de referência passado por meio de uma função callback. Ao fazer o teste em cada elemento, o método retorna um ou mais conteúdos que atendam à especificação indicada na função callback e armazena o resultado em uma nova variável do tipo array.
+// filter() chama a função callback fornecida, uma vez para cada elemento do array, e constrói um novo array com todos os valores para os quais o callback retornou o valor true ou um valor que seja convertido para true. 
 
 // Portanto, o resultado será o de todos os elementos que satisfaçam a condição do filtro. Vale ressaltar que a array original não sofre nenhum tipo de alteração pelo método filter().
 
@@ -29,7 +29,7 @@ const nomeTerminaComA = pessoas.filter(obj => {
     return obj.nome.toLowerCase().endsWith('a')
 })
 
-console.log(apelidos)
+console.table(apelidos)
 //console.log(nomeMaiorQue5)
  //console.log(maiorQue50)
 // console.log(nomeTerminaComA)

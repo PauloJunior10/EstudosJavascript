@@ -1,8 +1,6 @@
-// O splice()método adiciona e/ou remove elementos do array.
+//  https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
 
-// O splice()método substitui a matriz original.
-
-//1) Na posição 2 ele adiciona 2 elementos
+//1)a partir do índice 2, remove 0 elementos e insere "lemon" e "kiwi"
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
 fruits.splice(2, 0, "Lemon", "Kiwi");

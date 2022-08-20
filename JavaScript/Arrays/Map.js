@@ -2,6 +2,17 @@
 
 // O método map() Basicamente, faz a leitura de todos os elementos do array, executa uma função callback para cada um e devolve como retorno um NOVO array.
 
+const DATA = [
+    {id: 1, title: 'first'},
+    {id: 2, title: 'second'},
+    {id: 3, title: 'third'},
+    {id: 4, title: 'fourth'}
+
+]
+
+const upperData = DATA.map(item => item.title.toUpperCase())
+console.table(upperData)
+
 //a)
 // var numbers = [1, 4, 9];
 // var roots = numbers.map(Math.sqrt);

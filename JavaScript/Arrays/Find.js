@@ -10,7 +10,7 @@ const cousinPaulo = family.find(obj => obj == 'paulo')
 console.log(cousinPaulo)
 
 //------------
-
+// retornou o primeiro número maior que 10
 const array1 = [5, 12, 8, 130, 44];
 
 const found = array1.find(obj => obj > 10);

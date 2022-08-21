@@ -4,19 +4,19 @@
 
 // O forEach()método não é executado para elementos vazios.
 
-// 1 - calcule a soma dos elementos da array
+// 1 - calcule a msoma dos elementos da array
 
-// let sum = 0;
-// const numbers = [65, 44, 12, 4];
+let sum = 0;
+const numbers = [65, 44, 12, 4];
 
-// numbers.forEach((item) => {
-//         return(
-//             sum += item
-//         )
-//     }
-// )
+numbers.forEach((item) => {
+        return(
+            sum += item // se quisesse multiplicar era só usar *= e trocar a let sum por 1, pois se multiplicar por zero o resultado é zero
+        )
+    }
+)
 
-// console.log(sum)
+console.log(sum)
 
 // ======== outra forma, fazenda a mesma coisa
 

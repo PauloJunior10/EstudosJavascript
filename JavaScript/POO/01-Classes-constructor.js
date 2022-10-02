@@ -1,7 +1,13 @@
-function Cachorro(raca) { // por convenção  inicamos classes com letras maiusculas
-    this.raca = raca // criamos uma propriedade raca e setamos ela
+ 
+ // por convenção  inicamos classes com letras maiusculas
+function Usuario(nome, idade, profissao) {
+    
+    // criamos uma propriedade  e setamos ela com o parametro
+    this.nome = nome 
+    this.idade = idade
+    this.profissao = profissao
 }
 
-let husky = new Cachorro("Husky")
+let usuario1 = new Usuario("PAULO", 25, "DEV")
 
-console.log(husky.raca)
+console.log(usuario1)

@@ -32,3 +32,15 @@ if (nome.indexOf('junior') > -1) {
 }else{
     console.log("sobrenome não encontrado")
 }
+
+
+// Inserir elemento em array se ele não existir com JavaScript
+
+const arr = [1, 2, 3]
+const x = 4
+
+if(arr.indexOf(x) === -1) {
+    arr.push(x)
+}
+
+console.log(arr) // [1, 2, 3, 4]

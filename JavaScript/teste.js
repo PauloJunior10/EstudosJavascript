@@ -1,23 +1,4 @@
-class User{
-  constructor(id, email, senha){
-    this.id = id
-    this.email = email
-    this.senha = senha
-  }
-}
+const numeros  = [5,23,43,2,7,8,9,24,47,56]
+const numMaiorQue10 = numeros.filter(num => num > 10) // aqui eu usei uma arrow function
 
-export class Estudante extends User{
- contructor(id, email, senha, sala){
-  super(id, email, senha)
-  this.sala = sala
- }
-}
-
-let Paulo = new Estudante(
-  Date.now().toString,
-  "sadlfkj@hotmail.com",
-  "abc123",
-  "sala 2"
-)
-
-console.log(Paulo)
+console.log(numMaiorQue10)

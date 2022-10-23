@@ -7,6 +7,7 @@ let obj = {
     review:"É TOP"
   };
    Object.freeze(obj);
-  obj.review = "É HORRÍVEL"; // ela altera o rewiew
-   obj.newProp = "Test"; // acrescenta uma nova propriedade
+
+  obj.review = "É HORRÍVEL"; // não altera o rewiew
+   obj.newProp = "Test"; // não acrescenta uma nova propriedade
   console.log(obj); 

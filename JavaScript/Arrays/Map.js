@@ -1,6 +1,6 @@
 //https://devdocs.io/javascript/global_objects/array/map
 
-// O método map() Basicamente, faz a leitura de todos os elementos do array, executa uma função callback para cada um e devolve como retorno um NOVO array.
+// O método map() Basicamente, faz a leitura de todos os elementos do array, executa uma função callback para cada um e devolve como retorno UM NOVO ARRAY.
 
 const DATA = [
     {id: 1, title: 'first'},

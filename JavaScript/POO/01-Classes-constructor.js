@@ -1,13 +1,27 @@
- 
- // por convenção  inicamos classes com letras maiusculas
-function Usuario(nome, idade, profissao) {
-    
-    // criamos uma propriedade  e setamos ela com o parametro
-    this.nome = nome 
-    this.idade = idade
-    this.profissao = profissao
+
+// por convenção  inicamos classes com letras maiusculas
+class Usuario {
+
+    // criamos as propriedade sem valores definidos previamente
+    nome;
+    idade;
+
+    constructor(nome, idade) {
+//  O constructor será o valor padrão das instâncias
+        this.nome = nome
+        this.idade = idade
+    }
+
+    descrever(){
+        console.log(`Meu Nome é ${this.nome} e minha idade é ${this.idade}`)
+    }   
 }
 
-let usuario1 = new Usuario("PAULO", 25, "DEV")
-
+// Isso é uma instância, CLASSE é uma definição do OBJETO e INSTÂNCIA é uma ocorrência do OBJETO
+let usuario1 = new Usuario("paulo", 25)
 console.log(usuario1)
+
+usuario1.descrever()
+
+
+

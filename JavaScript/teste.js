@@ -1,8 +1,18 @@
-function igualdade(a,b) {
-  if(a === b){
-    return "Sao iguais!"
+class person{
+  constructor(name){
+    this._name = name
   }
-  return "Nao sao iguais"
+
+  get name(){
+    return this._name
+  }
+
+  set name(value){
+    this._name = value
+  }
+
 }
 
-console.log(igualdade(4,4))
+const person2 = new person('Frodo')
+
+console.log(person2.name)

@@ -1,12 +1,8 @@
-const arr2 = ["Stimpson", "PAUL", "JAVCS", "TOM", "J", "cat"];
 
-// Defina o novo elemento que você deseja inserir
-// const novoElemento = "JUNIN";
+function numberToString(num) {
+    // Return a string of the number here!
+let conversao = num.toString()
+    
+}
 
-// Substitui o terceiro elemento pelo novo elemento
-arr2[2] = "novoElemento";
-
-console.log(arr2); // O array agora terá o novo elemento no lugar do terceiro elemento
-
-
-
+console.log(numberToString(56))

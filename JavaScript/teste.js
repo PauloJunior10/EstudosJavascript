@@ -1,8 +1,21 @@
 
-function numberToString(num) {
-    // Return a string of the number here!
-let conversao = num.toString()
-    
+function areYouPlayingBanjo(name) {
+    // Implement me
+    let arrName = name.split("")
+
+    let primeiraLetra = arrName.shift()
+    let resultado = ""
+    if (primeiraLetra == "R" || primeiraLetra == "r") {
+        resultado = "tudo certo"
+    }
+    else {
+        resultado = "errado"
+    }
+    return resultado;
 }
 
-console.log(numberToString(56))
+
+
+
+console.log(areYouPlayingBanjo("roao"));
+

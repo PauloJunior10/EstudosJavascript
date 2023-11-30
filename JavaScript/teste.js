@@ -1,21 +1,29 @@
+//crie um switch que recebe uma varável com um dia da semana, cada dia tem uma tarefa diferente, sábado e domingo é descanso e se não for nenhum dia, ele imprime " você não digitou nenhum dia válido"
 
-function areYouPlayingBanjo(name) {
-    // Implement me
-    let arrName = name.split("")
+let dia = 'DOMINGO'
+//dia = dia.toUpperCase()
 
-    let primeiraLetra = arrName.shift()
-    let resultado = ""
-    if (primeiraLetra == "R" || primeiraLetra == "r") {
-        resultado = "tudo certo"
-    }
-    else {
-        resultado = "errado"
-    }
-    return resultado;
+switch (dia) {
+    case 'SEGUNDA':
+        console.log('dia de estudar')
+        break;
+    case 'TERÇA':
+        console.log('dia de malhar')
+        break
+    case 'QUARTA':
+        console.log('dia de trabalhar')
+        break
+    case 'QUINTA':
+        console.log('dia de reunião')
+        break
+    case 'SEXTA':
+        console.log('dia de viajar')
+        break
+    case 'SABADO':
+    case 'DOMINGO':
+        console.log('Dia de Descanso')
+        break
+    default:
+        console.log('você não digitou nenhum dia válido')
 }
-
-
-
-
-console.log(areYouPlayingBanjo("roao"));
 

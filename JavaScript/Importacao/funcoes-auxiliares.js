@@ -1,7 +1,7 @@
 
 
 function gets() {
-    return 10
+    return "aqui já deu o resultado"
 }
 
 function print(texto){

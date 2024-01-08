@@ -15,4 +15,5 @@ nb = "R$ " + b.toFixed(4)
 
 console.log(na)
 console.log(nb)
+console.log(typeof nb, typeof na)
 // console.log( na + nb) aqui ele NÃO soma pq o método transforma o número em string

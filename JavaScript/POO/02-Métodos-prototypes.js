@@ -10,7 +10,7 @@ Cachorro.prototype.uivar = function(){
 }
 
 Cachorro.prototype.latir = function(){
-    console.log("au au")
+    console.log("au au au au")
 }
 
 let husky = new Cachorro('Husky Siberiano')

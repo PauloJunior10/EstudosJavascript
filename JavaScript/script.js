@@ -42,10 +42,3 @@ const myPromise3 = new Promise((resolve,reject) => {
     }
 })
 
-myPromise3
-.then((data) => {
-    return data.toUpperCase()
-})
-.then((stringModificada) => {
-    console.log(stringModificada)
-})

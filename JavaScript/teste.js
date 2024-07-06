@@ -3,5 +3,5 @@ if (5<4) {
 } else if (4<2) {
     console.log("escolho 4")
 } else {
-    console.log("nao escolho nada")
+    console.log("asdfasdf")
 }
